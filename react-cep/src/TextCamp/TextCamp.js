@@ -5,8 +5,8 @@ const TextCamp = (props) => {
         <div className="text-camp">
           <label>{props.label}</label>
           <input
-            value={props.value}
-            required={props.obrigatorio}
+            value = {props.value}
+            onChange={props.onChange}
             placeholder={props.placeholder}
           />
         </div>
